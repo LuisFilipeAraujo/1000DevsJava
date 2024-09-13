@@ -14,7 +14,7 @@ public class Radar {
         
         
 
-        if (velocidade >= (velocidadeMaxima*0.07)){
+        if (velocidade > (velocidadeMaxima*1.07)){
             System.out.println("Você excedeu em 7% da velocidade máxima");
         }
         else {
